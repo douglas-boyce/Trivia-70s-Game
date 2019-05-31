@@ -1,0 +1,140 @@
+
+.container {
+    display: none;
+}
+
+.container.active {
+    display: block;
+}
+
+.container--content {
+    background-color: #daa520;
+    color: #2e78ae;
+    font-family: 'IM Fell French Canon SC', serif;
+    /* font-size: 2.6em; */
+    margin-bottom: 7%;
+    text-align: center;
+}
+
+#correctScreen {
+    color: #da4820;
+    font-size: 1.1em;
+}
+
+#correctTimesUp {
+    font-size: 1.1em;
+}
+
+#done {
+    font-size: 1.3em;
+}
+
+#finalScreen {
+    background-color: #daa520;
+    color: #2e78ae;
+    font-family: 'IM Fell French Canon SC', serif;
+    font-size: 2.8em;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.fini {
+    font-size: 2.3em;
+}
+
+.itOver {
+    color: #da4820;
+    font-size: 3em;
+}
+
+#noAnswerScreen {
+    color: #da4820;
+    font-size: 1.1em;
+}
+
+#noAnswerTimesUp {
+    font-size: 1.1em;
+}
+
+.questions {
+    margin: 0;
+}
+
+.question-option {
+    display: inline-block;
+    margin: 1em;
+}
+
+.question-option>input {
+    vertical-align: middle;
+    margin: 0 0.3em 0 0;
+    cursor: pointer;
+}
+
+#splashScreen {
+    background-color: #daa520;
+    font-family: 'IM Fell French Canon SC', serif;
+    font-size: 2.6em;
+    margin-top: 15%;
+    text-align: center
+}
+
+#start-btn {
+    background-color: #2e78ae;
+    font-size: 1em;
+    padding: 2%;
+}
+
+#sub-but {
+    background-color: #da4820;
+    font-size: 2.5em;
+    padding: 2%;
+}
+
+.timeLeft {
+    font-size: 3em;
+}
+
+.timeRemaining {
+    color: #da4820;
+    font-size: 3.5em;
+}
+
+.timesUpBox {
+    background-color: #daa520;
+    color: #2e78ae;
+    font-family: 'IM Fell French Canon SC', serif;
+    font-size: 2.8em;
+    margin-top: 25%;
+    text-align: center;
+}
+
+.title1 {
+    color: #da4820;
+    font-size: 4em;
+}
+
+.title2 {
+    color: #da4820;
+    font-size: 9em;
+}
+
+.title1 {
+    color: #da4820;
+    font-size: 4em;
+}
+
+.title3 {
+    color: #da4820;
+    font-size: 4em;
+}
+
+#wrongScreen {
+    color: #da4820;
+    font-size: 1.1em;
+}
+
+#wrongTimesUp {
+    font-size: 1.1em;
+}
+

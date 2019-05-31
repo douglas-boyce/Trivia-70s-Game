@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>TriviaGame</title>
+</head>
+
+<body style="background-image: url('assets/images/retro-background-vintage-70s-style.jpg');"> 
+
+
+    <!-- Opening screen before starting the questions -->
+    <div id="splashScreen" class="container">
+        <br />
+
+        <div class="row">
+
+            <div class="col-sm-12">
+                <h1 class="title3">That 70's Facts</h1>
+                <br />
+
+
+                <button type="button" id="start-btn" class="btn btn-primary white-background blue">Begin</button>
+                <br />
+                <br />
+                <br />
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- End screen after answering questions in the allotted time -->
+    <div id="finalScreen" class="container">
+
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="title1">A Game of Facts</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="fini">You Have Finished!</h2>
+            </div>
+        </div>
+        <br />
+
+        <div class="row">
+            <div class="col-md-12">
+                <h4 id="correctScreen">Number of Correct Responses:</h4>
+            </div>
+        </div>
+        <br />
+
+        <div class="row">
+            <div class="col-md-12">
+                <h4 id="wrongScreen">Number of Wrong Responses:</h4>
+            </div>
+        </div>
+        <br />
+
+        <div class="row">
+            <div class="col-md-12">
+                <h4 id="noAnswerScreen">No answer:</h4>
+            </div>
+        </div>
+        <br />
+
+    </div>
+    <br />
+    <br />
+
+    <!-- The time ends before answering the questions -->
+    <div id="timesUp" class="container">
+        <div class="timesUpBox">
+            <br>
+            <h2 class="itOver">Times Up!</h2>
+            <br />
+            <h4 id="correctTimesUp">Correct Time: </h4>
+            <br />
+            <h4 id="wrongTimesUp">Wrong Time: </h4>
+            <br />
+            <h4 id="noAnswerTimesUp">No answer:</h4>
+            <br />
+            <br />
+
+        </div>
+    </div>
+    <br />
+    <br /><br />
+    <br /><br />
+    <br />
+
+    <!-- The main content -->
+    <div id="content" class="container container--content">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="title2">Un jeu de faits</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="timeLeft">Le temps restant:</h3>
+                <h4 class="timeRemaining"></h4>
+            </div>
+        </div>
+        <br />
+
+        <div class="questions">
+
+            <div id="question--container">
+                <!-- questions goes here -->
+            </div>
+            <br />
+            <br />
+
+            <div class="row">
+                <div class="col-md-12">
+                    <button type="button" class="btn btn-primary white-background blue" id="sub-but">End</button>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+
+        <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
